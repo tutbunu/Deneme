@@ -5,20 +5,12 @@ var app = express();
 
 //var config = {
 //	user: 'sa',
-//	password: 'gizsoft',
+//	password: 'xxxx',
 //	server: '192.168.1.30\\SQLEXPRESS01',
-//	database: 'DemsaIT'
+//	database: 'xxxx'
 	// debug: false,
     // multipleStatements: true
 //};
-// var config = {
-// 	user: 'sa',
-// 	password: '1235',
-// 	server: '192.168.1.102',
-// 	database: 'DemsaIT',
-// 	// debug: false,
-// 	// multipleStatements: true
-// };
 
 //***********İLK SAYFA AÇILDIĞI ZAMAN KULLANICIYI KARŞILAYAN SAYFA
 module.exports.index = function (req, res) {
