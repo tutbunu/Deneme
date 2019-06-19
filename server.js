@@ -19,6 +19,15 @@ app.use('/public', express.static(path.join(__dirname, 'public'))); //Public Kla
 
 app.use('/', router); // ANA OMURGA
 
+
+
+
+
+app.use(function (req, res) {
+	//res.write('SAYFA BULUNAMADI');
+	//res.end();
+	res.render('h404', { h404: "Oops!!! Bazı Şeyler Ters Gidiyor" })
+});
 app.listen(80, () => {
 	console.log('Uygulama çalıştırıldı...');
 });
