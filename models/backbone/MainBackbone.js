@@ -33,13 +33,13 @@ module.exports.index = function (req, res) {
 res.render('index');
 }
 
-module.exports.kayit = function (req, res) {
+module.exports.about = function (req, res) {
 
-	res.render('kayit');
+	res.render('about');
 }
-module.exports.sifreReset = function (req, res) {
+module.exports.sitemap = function (req, res) {
 
-	res.render('sifreReset');
+	res.render('sitemap');
 }
 module.exports.iletisim = function (req, res) {
 
