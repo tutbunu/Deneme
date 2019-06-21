@@ -1,4 +1,4 @@
-# Bir NodeJs web Sitesidir. 
+# Kullanıma Hazır NodeJs Web Sitesidir. Daha Sonra Mysql Özelliği Eklenecektir. 
 Basit bir NodeJS web sitesi boş şablonudur.
 Modals altındaki router ve backbone kullanarak web sitelerinizi geliştirebilirsiniz.
 ejs olarak dosyalarınızı ekleyip hemen yayınlamaya başlarsınız.
