@@ -6,7 +6,7 @@ router.post("/getToken", (request, response, next) => {
     const payLoad = {
         userName,
         password,
-        email: "gyildizmail@gmail.com"
+        email: "tuncayguven@gmail.com"
     };
     const token = jwt.sign(payLoad, request.app.get("api_secret_key"), { expiresIn: 120 });
     response.json({
