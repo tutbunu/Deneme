@@ -1,6 +1,7 @@
 const jwt = require("jsonwebtoken");
  
 module.exports = (request, response, next) => {
+
     const token = request.headers["x-access-token"] || request.body.token || request.query.token;
     if (!token)
         response.send("Token bulunmamaktadır.");
