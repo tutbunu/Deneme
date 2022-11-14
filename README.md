@@ -6,3 +6,4 @@ Yapmanız gereken sadece router ve mainbackbone gerekli bilgileri girmenizdir.
 Sitenin üst ve alt menülerini layout.ejs dosyasından düzenleyebilirsiniz...
 ddd
 fff
+sss
